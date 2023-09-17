@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-BackgroundService-1a287ab5-2f10-48e0-a534-b43bbdd13913</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+</Project>

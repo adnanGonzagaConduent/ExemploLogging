@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="3.0.2-dev-02044" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.3.0" />
+    <PackageReference Include="SerilogWeb.Classic.Mvc" Version="2.1.25" />
+    <PackageReference Include="SerilogWeb.Classic.WebApi" Version="4.0.5" />
+  </ItemGroup>
+
+</Project>
