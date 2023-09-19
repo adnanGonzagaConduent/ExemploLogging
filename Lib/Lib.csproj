@@ -10,6 +10,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
     <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.3.0" />
+    <PackageReference Include="SerilogWeb.Classic" Version="5.1.66" />
     <PackageReference Include="SerilogWeb.Classic.Mvc" Version="2.1.25" />
     <PackageReference Include="SerilogWeb.Classic.WebApi" Version="4.0.5" />
   </ItemGroup>

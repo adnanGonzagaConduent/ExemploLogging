@@ -14,7 +14,7 @@ namespace WebApiApp
         {
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            GlobalConfiguration.Configuration.MessageHandlers.Add(new StandardLogHandler(LoggerSingleton.Instance));
+            //GlobalConfiguration.Configuration.MessageHandlers.Add(new StandardLogHandler(LoggerSingleton.Instance));
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
